@@ -1,0 +1,35 @@
+.container {
+  height: 100vh;
+}
+.titulo {
+  position: relative;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #f6f6f6;
+}
+.grid {
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 1em; /*Le da espaciados entre columnas y filas*/
+}
+.card {
+  background-color: #3d4586a6;
+  padding: 1em;
+  border-radius: 2%;
+  justify-content: center;
+}
+.card:hover {
+  box-shadow: 0 0 10px #d5f6ff;
+}
+.icon {
+  font-size: 60px;
+  position: relative;
+  color: #d5f6ff;
+}
+.card h5 {
+  color: #d5f6ff;
+  position: relative;
+}

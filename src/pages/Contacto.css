@@ -1,0 +1,32 @@
+.container {
+    height: 100vh;
+}
+.contactos {
+    width: 20px;
+    height: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-gap: 2rem;
+}
+.world {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: url("../assets/world-map-color.png");
+    background-size: cover;
+    box-shadow: inset 0 0 20px #48bfff,
+      inset -40px -10px 20px rgba(3, 32, 56, 0.7);
+    backdrop-filter: blur(5px);
+    /* animation: world 120s linear infinite; */
+    position: absolute;
+    top: 400%;
+    left: 50%;
+  }
+  @keyframes world {
+    0% {
+      background-position-x: 0;
+    }
+    100% {
+      background-position-x: -800px;
+    }
+  }

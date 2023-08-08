@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  color: #d5f6ff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background: -webkit-linear-gradient(bottom right, #001625, #00324d, #00344f, #00324d, #00111c);
+}
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 500%;
+  background-image: radial-gradient(#ffffff66 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+body::before{
+  z-index: -1;
+}

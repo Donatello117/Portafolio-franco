@@ -1,0 +1,34 @@
+.Container-Mi{
+  height: 100vh;
+}
+.rectangulo2 {
+  width: 60%;
+  height: 40%;
+  /* -webkit-clip-path: polygon(80% 0%, 100% 30%, 100% 100%, 0% 100%, 0% 0%); */
+  background-color: #00192c62;
+  backdrop-filter: blur(5px);
+  border: 1px solid #48bfff;
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.texto2 {
+  padding: 2%;
+}
+.bar3 {
+  height: 10px; /* altura de la barra */
+  background-image: linear-gradient(
+    -45deg,
+    #48bfff 25%,
+    transparent 25%,
+    transparent 50%,
+    #48bfff 50%,
+    #48bfff 75%,
+    transparent 75%,
+    transparent
+  ); /* imagen de fondo generada dinámicamente */
+  background-size: 15px 15px; /* tamaño de cada paralelogramo */
+  background-repeat: repeat; /* repetir en todo el ancho */
+  
+}
